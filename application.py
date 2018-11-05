@@ -20,4 +20,3 @@ root.attributes('-topmost',True)
 root.after_idle(root.attributes,'-topmost',False)
 root.mainloop()
 
-#iejfidfidflejejl
