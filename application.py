@@ -1,8 +1,9 @@
 from tkinter import Tk, font
+import tkinter as tk
 from view import View
 
 
-root = Tk()
+root = tk.Tk()
 default_font = font.nametofont("TkDefaultFont")
 default_font.configure(size=24)
 

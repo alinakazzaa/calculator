@@ -32,7 +32,7 @@ def test_clear_digit_button(model, controller):
     controller.button_pressed("6")
     assert "6" == model.display
 
-def test_back_button(model, controller):
+def test_del_button(model, controller):
     controller.button_pressed("8")
     controller.button_pressed("Del")
     controller.button_pressed("7")
