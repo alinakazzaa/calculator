@@ -37,3 +37,4 @@ def test_del_button(model, controller):
     controller.button_pressed("Del")
     controller.button_pressed("7")
     assert "7" == model.display
+
