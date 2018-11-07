@@ -14,6 +14,7 @@ y = (root.winfo_screenheight() // 2) - (height // 2)
 root.geometry('{}x{}+{}+{}'.format(width, height, x, y))
 
 view = View(root)
+#dffdf
 
 root.lift()
 root.attributes('-topmost',True)
